@@ -1,0 +1,252 @@
+body{
+    
+}
+.navbar1 img{
+    height: 90px;
+}
+.navbar1{
+ background-color: transparent;
+}
+.navbar1 li{
+    font-size: 25px;
+}
+.divn{
+
+    background: linear-gradient(to right, #38383825, #333333,transparent); 
+}
+
+
+/* hero section  */
+.hero {
+   margin-top: -200px;
+    width: 100%; 
+    height: 850px !important;
+    background-image: url("./images//WhatsApp\ Image\ 2024-03-16\ at\ 14.41.52_65f9fd58.jpg");
+    overflow: hidden !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: rgba(0, 0, 0, 0.6);  */
+    /* Black color with 60% opacity */
+    /* z-index: 1;  */
+    /* Ensure the overlay is behind the content */
+}
+.img-line{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.social-icon i{
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 100%;
+}
+.content-hero{
+    margin-top: 300px;
+    color: #6c6c6c;
+    font-size: 35px;
+}
+.content-hero h3{
+    margin-left: 120px;
+}
+.line-hero{
+    margin-left: 150px;
+}
+.button-yellow{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    background-color:#FAD00B ;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 550;
+    
+}
+.button-yellow-margin{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+
+/* feature content  */
+.section-feature{
+    margin-top: -100px;
+}
+
+.about-section h1{
+    font-size: 50px;
+}
+.about-section p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* section do  */
+.section-do{
+    width: 100%; 
+    height: 750px !important;
+    background-image: url("./images/2nd\ banner\ 1.png");
+    overflow: hidden !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+}
+.section-do h1{
+    font-size: 50px;
+}
+.section-do-para-title{
+    font-size: 36px;
+}
+.section-do-intro p{
+    font-size: 25px;
+}
+.otn{
+    border: 1px solid #FAD00B !important;
+    color:  #FAD00B !important;
+    font-size: 20px !important;
+}
+.do-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* story section  */
+.story-section h1{
+    font-size: 50px;
+}
+.story-section p{
+    font-size: 20px;
+}
+
+
+/* frquently ask question  */
+.frequently-ask-section h1{
+    font-size: 50px;
+}
+.frequently-ask-section {
+
+}
+.section-q {
+    
+    /* height: 500px; */
+    width: 80%;
+    background-color: #face0bd2;
+    border-radius: 50px;
+    
+}
+.section-q .para {
+    
+    font-size: 25px;
+    font-weight: 750;
+
+}
+.section-q .para1{
+    border-bottom: 2px solid black;
+}
+.section-q .para p{
+    /* padding-right: 5px; */
+}
+.section-q span {
+    text-align: right;
+}
+
+/* footer section  */
+.footer-section{
+    background-color: black;
+}
+.footer-section h1{
+    font-size: 50px;
+}
+.footer-section p{
+    font-size: 25px;
+}
+
+
+@media (max-width:600px) {
+    .about-section h1 {
+        font-size: 25px;
+    }
+    .section-do h1 {
+        font-size: 25px;
+    }
+    story-section h1 {
+        font-size: 25px;
+    }
+    .story-section p {
+        font-size: 15px;
+        text-align: center;
+        text-align: justify;
+        padding: 10px;
+    }
+    .story-section h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .cr-im{
+        display: flex;
+        justify-content: center;
+    }
+    .section-do-intro p {
+        /* margin: 0px; */
+        font-size: 15px;
+    }
+    .section-do-para-title {
+        font-size: 20px;
+    }
+    .mid{
+        text-align: center;
+    }
+    .button-yellow {
+        font-size: 15px;
+    }
+    .frequently-ask-section h1 {
+        font-size: 25px;
+    }
+    .about-section p {
+     
+        font-size: 15px;
+    }
+    .section-do {
+        height: 800px !important;
+    }
+    .do-button{
+        display: block !important;
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+    .otn {
+        font-size: 15px !important;
+        margin-top: 20px;
+
+    }
+    .section-feature img {
+        height: 200px;
+        width: auto !important;
+    }
+    .section-q .para {
+        font-size: 15px;
+    }
+    .section-q {
+        width: 100%;
+    }
+    .footer-section h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .hj{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-section p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .content-hero h3 {
+        margin-left: 0px;
+    }
+    
+}
