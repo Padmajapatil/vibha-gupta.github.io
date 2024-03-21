@@ -18,36 +18,47 @@ body{
 
 /* hero section  */
 .hero {
-   margin-top: -200px;
-    width: 100%; 
-    height: 850px !important;
-    background-image: url("./images//WhatsApp\ Image\ 2024-03-16\ at\ 14.41.52_65f9fd58.jpg");
-    overflow: hidden !important;
+   /* margin-top: -200px;
+    width: 100%;  */
+    /* height: 850px !important; */
+    /* background-image: url("./images//WhatsApp\ Image\ 2024-03-16\ at\ 14.41.52_65f9fd58.jpg"); */
+    /* overflow: hidden !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* background-color: rgba(0, 0, 0, 0.6);  */
     /* Black color with 60% opacity */
     /* z-index: 1;  */
     /* Ensure the overlay is behind the content */
 }
 .img-line{
-    margin-top: 200px;
-    margin-left: 70px;
+    /* margin-top: 200px; */
+    margin-left: -100px;
+}
+.icon i{
+    margin-left: -120px;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(214, 211, 211);
+    border-radius: 50%;
+    padding: 10px;
+
 }
 .social-icon i{
+    /* margin-left: -100px; */
     color: black;
     font-size: 30px;
     background-color: white;
     border-radius: 100%;
 }
 .content-hero{
-    margin-top: 300px;
+    /* margin-top: 200px; */
     color: #6c6c6c;
-    font-size: 35px;
+    font-size: 20px;
+    margin-left: 50px;
 }
 .content-hero h3{
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 .line-hero{
     margin-left: 150px;
@@ -85,7 +96,7 @@ body{
 /* section do  */
 .section-do{
     width: 100%; 
-    height: 750px !important;
+    height: 550px !important;
     background-image: url("./images/2nd\ banner\ 1.png");
     overflow: hidden !important;
     background-size: cover;
@@ -101,7 +112,7 @@ body{
     font-size: 36px;
 }
 .section-do-intro p{
-    font-size: 25px;
+    font-size: 22px;
 }
 .otn{
     border: 1px solid #FAD00B !important;
@@ -162,9 +173,32 @@ body{
     font-size: 50px;
 }
 .footer-section p{
-    font-size: 25px;
+    font-size: 18px;
 }
-
+.hhh{
+    background-color: #FAD00B !important;
+    border-radius: 10px !important;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+.modal-body h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+.modal-body p{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.fa-close{
+    color: black !important;
+}
+.pdf img{
+ height: 100px;
+ width: auto;
+}
 
 @media (max-width:600px) {
     .about-section h1 {
