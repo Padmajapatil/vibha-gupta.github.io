@@ -11,10 +11,12 @@ body{
     font-size: 25px;
 }
 .divn{
-
-    background: linear-gradient(to right, #38383825, #333333,transparent); 
+    padding: 60px;
+    background: black 
 }
-
+.divn img{
+    margin-top: -10px;
+}
 
 /* hero section  */
 .hero {
@@ -53,9 +55,11 @@ body{
 }
 .content-hero{
     /* margin-top: 200px; */
-    color: #6c6c6c;
-    font-size: 20px;
+    /* color: #6c6c6c; */
+    color: white;
+    font-size: 17px;
     margin-left: 50px;
+    /* text-align: justify; */
 }
 .content-hero h3{
     /* margin-left: 120px; */
@@ -112,7 +116,11 @@ body{
     font-size: 36px;
 }
 .section-do-intro p{
+    text-align: justify;
     font-size: 18px;
+}
+.border-bottom-do-intro{
+    border-bottom: 3px solid #FAD00B ;
 }
 .otn{
     border: 1px solid #FAD00B !important;
@@ -123,6 +131,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
 
 
 /* story section  */
@@ -141,9 +150,13 @@ body{
     font-size: 50px;
 }
 .story-section p{
+    text-align: justify;
     font-size: 17px;
 }
-
+.my-story-img{
+    height: 430px;
+    width: 450px;
+}
 
 /* frquently ask question  */
 .frequently-ask-section h1{
@@ -186,6 +199,13 @@ body{
 .footer-section p{
     font-size: 16px;
 }
+.intro-footer h2{
+    color: #c6c6c6;
+}
+.intro-footer p{
+   font-size: 20px;
+   word-spacing: 5px;
+}
 .hhh{
     background-color: #FAD00B !important;
     border-radius: 10px !important;
@@ -206,9 +226,16 @@ body{
 .fa-close{
     color: black !important;
 }
-.pdf img{
+
+.list-of-publication h1{
+font-size: 50px;
+}
+.pdf .img1{
  height: 200px;
  width: auto;
+}
+.border-right-pdf{
+    border-right: 3px solid #FAD00B;
 }
 
 @media (max-width:600px) {
