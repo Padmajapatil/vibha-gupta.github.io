@@ -235,7 +235,9 @@ font-size: 50px;
  width: auto;
 }
 .border-right-pdf{
-    border-right: 3px solid #FAD00B;
+    
+    /* height: 700px; */
+    border-left: 3px solid #FAD00B;
 }
 
 @media (max-width:600px) {
