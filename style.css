@@ -2,7 +2,7 @@ body{
     font-family: sans-serif 'poppins';
 }
 .navbar1 img{
-    height: 90px;
+    height: 50px;
 }
 .navbar1{
  background-color: transparent;
@@ -11,7 +11,7 @@ body{
     font-size: 25px;
 }
 .divn{
-    padding: 60px;
+    padding: 20px;
     background: black 
 }
 .divn img{
